@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Free OTT</title>
+  <style>
+    body { background:#141414; color:white; font-family:sans-serif; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); gap:15px; padding:20px; }
+    .card { cursor:pointer; transition:transform .2s; }
+    .card:hover { transform:scale(1.05); }
+    video { width:100%; border-radius:10px; }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center">🚀 My OTT Platform</h1>
+  <div class="grid">
+    <div class="card">
+      <video controls poster="https://i.imgur.com/1Q9Z1Zy.png">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+      <p>Big Buck Bunny</p>
+    </div>
+    <div class="card">
+      <video controls poster="https://i.imgur.com/XO3BlcF.png">
+        <source src="https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4" type="video/mp4">
+      </video>
+      <p>Elephant’s Dream</p>
+    </div>
+  </div>
+</body>
+</html>
